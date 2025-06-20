@@ -1,5 +1,5 @@
 // --- api.js ---
-const SHEET_URL = "http://localhost:3001/proxy";
+const SHEET_URL = "https://anil-diagnostic.vercel.app/api/proxy";
 
 /**
  * Send bill JSON to Google Sheets via Apps Script Web App
