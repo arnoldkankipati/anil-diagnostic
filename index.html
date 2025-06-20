@@ -42,6 +42,16 @@
     #pdfModal {
       transition: opacity 0.3s;
     }
+    /* Mobile fix: align content to top and add padding */
+    @media (max-width: 640px) {
+      body {
+        align-items: flex-start;
+        padding-top: 20px;
+      }
+      .max-w-4xl {
+        margin-top: 0 !important;
+      }
+    }
   </style>
 </head>
 <body>
